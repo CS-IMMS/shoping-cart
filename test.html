@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <ul class="nav bg-secondary text-white py-4">
+        <li class="nav-item">
+            <a class="nav-link active text-white" aria-current="page" href="#">IMMS-<span>MOTORS</span></a>
+        </li>
+        <div class="d-flex justify-content-center text-center container">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link  text-white">Store</a>
+            </li>
+            <div class="d-flex justify-content-end " style="justify-content: end;">
+                <li class="nav-item ">
+                    <a class="nav-link text-white" href="#"><i class="fa-solid fa-phone-flip fa-1x"></i>+22796010203</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link  text-white">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-success " data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                             <span>2item</span>-<span>100F</span>
+                        </button>
+
+
+                    </a>
+                </li>
+            </div>
+        </div>
+    </ul>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                        <i class="fa-solid fa-bag-shopping"></i> Votre Panier
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container">
+                        <div class="row d-flex justify-content-between">
+                            <div class="col-4">
+                                <h4 class="élémentNom">Nom</h4>
+                                <p class="élémentPrix">Prix</p>
+                              </div>
+                              <div class="col-4">
+                                <button class="btn btn-outline-danger boutonRetirer">
+                                    <i class="fa-solid fa-bag-shopping"></i>
+                                </button>
+                              </div>
+                        </div>
+                    </div>
+                    
+                      <div class="container">
+                        <div class="row">
+                            <h3>Total: <span></span></h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+                        <i class="fa-solid fa-bag-shopping"></i> Vider le Panier</button>
+                    <button type="button" class="btn btn-success">
+                        <i class="fa-solid fa-badge-check"></i> Confirmer Achat</button>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <section style="padding-top: 15rem;padding-bottom: 20rem;" class="acceil">
+        <div class="container">
+            <div class="row text-center text-white">
+                <div class="col-sm-12 col-md-12 ">
+                    <h1>Bienvenue sur IMMS-MOTORS</h1>
+                    <button type="button" class="btn btn-light">EXPLORE</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="section">
+        <div class="conatainer">
+            <div class="row">
+                <div class="row">
+                    <div class="row">
+                        <div class="col-sm-12 col-md-6 py-5 text-center text-white">
+                            <h1>About <span class="">US</span></h1>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sapiente minima enim
+                                repudiandae similique <br> quibusdam aliquid nam amet adipisci in! Beatae harum a
+                                obcaecati recusandae nobis porro quo. Aperiam, aliquam beatae?
+                            </p>
+                            <button type="button" class="btn btn-light">EXPLORE</button>
+                        </div>
+                        <div class="col-sm-12 col-md-6 py-5">
+                            <img src="https://images.pexels.com/photos/39855/lamborghini-brno-racing-car-automobiles-39855.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                                alt="" class="img1 img-fluid ">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="container">
+            <div class="row py-5 text-center d-flex justify-content-center text-white">
+                <div class="col-12 py-4">
+                    <h1>Our <span>Store</span></h1>
+                    <button type="button" class="btn btn-light">ALL</button>
+                    <button type="button" class="btn btn-light">MERCEDESS</button>
+                    <button type="button" class="btn btn-light">AUDI</button>
+                    <button type="button" class="btn btn-light">MUSTANG</button>
+                    <button type="button" class="btn btn-light">FERRARI</button>
+                    <button type="button" class="btn btn-light">LANBO</button>
+                </div>
+                <div class="input-group mb-3 w-50">
+                    <span class="input-group-text" id="basic-addon1"><i class="fa-solid fa-magnifying-glass"></i></span>
+                    <input type="text" class="form-control" placeholder="Item..." aria-label="Username"
+                        aria-describedby="basic-addon1">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="row">
+                    <div class="row py-5">
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.pexels.com/photos/5288708/pexels-photo-5288708.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                                    class="card-img-top" style="height: 22rem; width: 100%;">
+                                <button class="btn btn-warning w-25 buttomAjouArticle">
+                                    <i class="fa-solid fa-cart-shopping chario"></i>
+                                </button>
+
+                                <div class="card-body">
+                                    <p class="card-text text-dark"><span>g63</span><span>100M fcfa</span></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.pexels.com/photos/10215511/pexels-photo-10215511.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                                    class="card-img-top " style="height: 22rem;">
+                                    <button class="btn btn-warning w-25 buttomAjouArticle">
+                                        <i class="fa-solid fa-cart-shopping chario"></i>
+                                    </button>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <h6>c class</span><span>10M fcfa</h>
+                                            <h6></h6>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://i.pinimg.com/originals/92/db/84/92db840ddb5fc632cfc647e2e5ce411c.jpg"
+                                    class="card-img-top " style="height: 22rem; width: 100%;">
+                                    <button class="btn btn-warning w-25 buttomAjouArticle">
+                                        <i class="fa-solid fa-cart-shopping chario"></i>
+                                    </button>
+                                <div class="card-body ">
+                                    <p class="card-text">
+                                        <span>Brabus</span><span>200M fcfa</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://www.turbo.fr/sites/default/files/2021-02/x6M.jpg"
+                                    class="card-img-top " style="height: 22rem; width: 100%;">
+                                    <button class="btn btn-warning w-25 buttomAjouArticle">
+                                        <i class="fa-solid fa-cart-shopping chario"></i>
+                                    </button>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <span>X6</span><span>10M fcfa</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://images.caradisiac.com/logos/4/2/6/1/244261/S8-salon-de-geneve-2018-tout-savoir-sur-la-lamborghini-urus-presentation-video-165585.jpg"
+                                    class="card-img-top " style="height: 22rem; width: 100%;">
+                                    <button class="btn btn-warning w-25 buttomAjouArticle">
+                                        <i class="fa-solid fa-cart-shopping chario"></i>
+                                    </button>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <span>Urus</span><span>80M fcfa</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://puregprace.com/wp-content/uploads/2022/01/1642427177_Lamborghini-Aventador-un-kit-esthetique-a-200-mille-euros.jpg"
+                                    class="card-img-top " style="height: 22rem; width: 100%;">
+                                    <button class="btn btn-warning w-25 buttomAjouArticle">
+                                        <i class="fa-solid fa-cart-shopping chario"></i>
+                                    </button>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <span>avantador</span><span>900M fcfa</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://www.icon-icon.com/wp-content/uploads/2021/05/bulletproof-ferrari-458-speciale-by-addarmor-front-view.jpg"
+                                    class="card-img-top " style="height: 22rem; width: 100%;">
+                                    <button class="btn btn-warning w-25 buttomAjouArticle">
+                                        <i class="fa-solid fa-cart-shopping chario"></i>
+                                    </button>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <span>Ferrari 458</span><span>750M fcfa</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://www.motorlegend.com/modules/breve/photos/src/pagani-huayra-18062-4.jpg"
+                                    class="card-img-top " style="height: 22rem; width: 100%;">
+                                    <button class="btn btn-warning w-25 buttomAjouArticle">
+                                        <i class="fa-solid fa-cart-shopping chario"></i>
+                                    </button>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <span>pagani</span><span>500M fcfa</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-4">
+                            <div class="card" style="width: 18rem;">
+                                <img src="https://www.automobile-magazine.fr/asset/cms/840x394/92666/config/74182/bien-quil-revendique-le-titre-de-concept-ce-c-hr-hy-power-sapparente-a-un-modele-de-serie-a-peine-deguise.jpg"
+                                    class="card-img-top " style="height: 22rem; width: 100%;">
+                                    <button class="btn btn-warning w-25 buttomAjouArticle">
+                                        <i class="fa-solid fa-cart-shopping chario"></i>
+                                    </button>
+                                <div class="card-body">
+                                    <p class="card-text">
+                                        <span>C-HR</span><span>13M fcfa</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
